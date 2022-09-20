@@ -1,0 +1,156 @@
+{
+  "inspections": [
+    {
+      "id": 1,
+      "name": "Schade opnemen",
+      "data": {
+        "date": "1990-05-11T18:25:43.511Z",
+        "location": "Eindhoven",
+        "newDamage": true,
+        "type": "normaal gebruik",
+        "urgent": false,
+        "description": "Te lage waterdruk in ketel"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Achterstallig onderhoud opnemen",
+      "data": {
+        "date": "2012-04-23T18:25:43.511Z",
+        "location": "Eindhoven",
+        "maintenance": "houtrot",
+        "urgent": true,
+        "price": 1000
+      }
+    },
+    {
+      "id": 3,
+      "name": "Technische installaties inspecteren",
+      "data": {
+        "date": "2004-07-03T18:25:43.511Z",
+        "location": "Son",
+        "installation": "Verwarming",
+        "malfunctions": "Verwarming slaat slechts af en toe aan",
+        "procedure": "link naar pdf",
+        "approved": false,
+        "notes": "CV meet huidige temperatuur niet goed"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Modificaties inventariseren",
+      "data": {
+        "date": "1989-01-30T18:25:43.511Z",
+        "file": "link naar pdf bestand",
+        "location": "Breugel",
+        "executed": "aannemer",
+        "modification": "tekstveld",
+        "toDo": "Laten keuren",
+        "notes": "Nieuwe slang gezet, controleren"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Achterstallig onderhoud opnemen",
+      "data": {
+        "date": "2011-11-11T18:25:43.511Z",
+        "location": "Best",
+        "maintenance": "leidingwerk",
+        "urgent": "radio",
+        "price": 1500
+      }
+    },
+    {
+      "id": 6,
+      "name": "Schade opnemen",
+      "data": {
+        "date": "2022-02-22",
+        "location": "Eindhoven",
+        "newDamage": "on",
+        "description": "Deurbel versleten"
+      }
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "name": "Uitgevoerd 1",
+      "file": "normbladen.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Uitgevoerd 2",
+      "file": "testprocedures.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Uitgevoerd 3",
+      "file": "handleiding.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Uitgevoerd 4",
+      "file": "testprocedures.pdf"
+    },
+    {
+      "id": 5,
+      "name": "Uitgevoerd 5",
+      "file": "testprocedures.pdf"
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "name": "Normbladen",
+      "file": "normbladen.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Testprocedures",
+      "file": "testprocedures.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Handleiding",
+      "file": "handleiding.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Veiligheidsprocedures",
+      "file": "veiligheidsprocedures.pdf"
+    },
+    {
+      "id": 5,
+      "name": "Checklist",
+      "file": "checklist.pdf"
+    },
+    {
+      "id": 6,
+      "name": "Werkwijze",
+      "file": "werkwijze.pdf"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "personeelsnr": 11235813,
+      "pin": "fibonacci",
+      "darkmode": false,
+      "notify": true
+    },
+    {
+      "id": 2,
+      "personeelsnr": 12345678,
+      "pin": "123",
+      "darkmode": false,
+      "notify": false
+    },
+    {
+      "id": 3,
+      "personeelsnr": 87654321,
+      "pin": "876",
+      "darkmode": false,
+      "notify": false
+    }
+  ]
+}
