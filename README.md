@@ -26,7 +26,7 @@ npm run lint
 
 ### Launch my JSON server
 
-json-server --watch public/data/db.json
+json-server public/data/db.json
 
 ### Customize configuration
 
